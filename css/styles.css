@@ -1,0 +1,31 @@
+/*Global*/
+
+.wrapper {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Header*/
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: black;
+    width: 133px;
+    padding: 16px 16px 23px 23px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+/*Main*/
+
+/*Footer*/
