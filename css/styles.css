@@ -14,6 +14,11 @@
 
 /*Header*/
 
+.header {
+    background-image: url(../img/header-bear.jpg);
+    height: 1000px;
+}
+
 h3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -24,6 +29,14 @@ h3 {
     padding: 16px 16px 23px 23px;
     margin-left: 200px;
     margin-top: 50px;
+}
+
+.header_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 220px;
+    float: right;
+    color: #FFFFFF;
+    margin-right: 174px;
 }
 
 /*Main*/
