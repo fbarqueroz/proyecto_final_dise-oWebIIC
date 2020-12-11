@@ -4,7 +4,6 @@
 .wrapper {
   width: 1600px;
   margin: 0 auto;
-  background-color: blanchedalmond;
   font-family: 'Raleway', sans-serif;
   position: relative; }
 
@@ -12,6 +11,38 @@
   content: "";
   clear: both;
   display: table; }
+
+/*Left Block*/
+.l1_title {
+  margin-left: 70px; }
+
+.l1_content {
+  margin-left: 70px; }
+
+.l2_title {
+  margin-left: 70px; }
+
+.l2_title {
+  margin-left: 70px; }
+
+.reason_block_l2 {
+  margin-left: 70px; }
+
+/*Right Block*/
+.title_r1 {
+  margin-left: 70px; }
+
+.content_r1 {
+  margin-left: 70px; }
+
+.title_r2 {
+  margin-left: 70px; }
+
+.content_r2 {
+  margin-left: 70px; }
+
+.subs-content {
+  font-family: 'Raleway', sans-serif; }
 
 /*Partials*/
 /*Header*/
@@ -121,33 +152,60 @@
   text-align: center;
   text-decoration: none; }
 
-/*Left Block*/
-.l1_title {
-  margin-left: 70px; }
+/*Subscribe*/
+.subs-content {
+  padding-right: 3%;
+  padding-left: 3%;
+  margin-bottom: 5%; }
 
-.l1_content {
-  margin-left: 70px; }
+.caja {
+  float: left;
+  width: 25%;
+  margin: 0; }
 
-.l2_title {
-  margin-left: 70px; }
+.box_ul {
+  list-style: none; }
+  .box_ul p {
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 3.438%;
+    padding-right: 40.38%;
+    line-height: 255%; }
+  .box_ul ul {
+    margin-top: 0; }
+  .box_ul li {
+    font-size: 1em;
+    padding-bottom: 7.188%;
+    color: #000000; }
+  .box_ul a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold; }
 
-.l2_title {
-  margin-left: 70px; }
+.subs-content h4 {
+  padding-top: 8.64%;
+  padding-bottom: 4%; }
 
-.reason_block_l2 {
-  margin-left: 70px; }
+.box_ul2 {
+  color: #000000;
+  font-size: 1em;
+  margin-bottom: 3.438%;
+  padding-right: 40.38%;
+  line-height: 255%; }
 
-.title_r1 {
-  margin-left: 70px; }
+.subscribe form {
+  padding-right: 20.38%;
+  margin-bottom: 2.063%; }
 
-.content_r1 {
-  margin-left: 70px; }
-
-.title_r2 {
-  margin-left: 70px; }
-
-.content_r2 {
-  margin-left: 70px; }
+.text-submit {
+  background-color: #EAEEF1;
+  color: red;
+  font-weight: bold;
+  border: none;
+  width: 340px;
+  height: 39px;
+  margin-bottom: 5.125%; }
 
 /*Footer*/
 .footer {

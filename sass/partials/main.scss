@@ -72,19 +72,23 @@
 }
 
 .reasons_block_l1 {
-    @include mainBlock;
+    border: solid 1px #DCDCDC;
+    height: 290px;
 }
 
 .reasons_block_l2 {
-    @include mainBlock;
+    border: solid 1px #DCDCDC;
+    height: 290px;
 }
 
 .reason_block_r1 {
-    @include mainBlock;
+    border: solid 1px #DCDCDC;
+    height: 290px;
 }
 
 .reason_block_r2 {
-    @include mainBlock;
+    border: solid 1px #DCDCDC;
+    height: 290px;
 }
 
 .reason_button a {
@@ -92,40 +96,74 @@
     text-decoration: none;
 }
 
-/*Left Block*/
 
-.l1_title {
-    @include marginBlock;
+/*Subscribe*/
+
+.subs-content{
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-bottom: 5%;
 }
 
-.l1_content {
-    @include marginBlock;
+.caja{
+    float:left;
+    width:25%;
+    margin:0;
 }
 
-.l2_title {
-    @include marginBlock;
+.box_ul{
+
+    list-style: none;
+
+    p{
+        color: #000000;
+        font-size:1em;
+        font-weight: bold;
+        margin-bottom: 3.438%;
+        padding-right: 40.38%;
+        line-height: 255%;
+    }
+
+    ul{
+        margin-top: 0;
+    }
+
+    li{
+        font-size: 1em;
+        padding-bottom: 7.188%;
+        color: #000000;
+    }
+
+    a{
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
 }
 
-.l2_title {
-    @include marginBlock;
+.subs-content h4{
+    padding-top: 8.64%;
+    padding-bottom: 4%;
 }
 
-.reason_block_l2 {
-    @include marginBlock;
+.box_ul2{
+    color: #000000;
+    font-size:1em;
+    margin-bottom: 3.438%;
+    padding-right: 40.38%;
+    line-height: 255%;
 }
 
-.title_r1 {
-    @include marginBlock;
-}
+.subscribe form{
+    padding-right: 20.38%;
+    margin-bottom: 2.063%;
+} 
 
-.content_r1 {
-    @include marginBlock;
-}
-
-.title_r2 {
-    @include marginBlock;
-}
-
-.content_r2 {
-    @include marginBlock;
+.text-submit{
+    background-color: #EAEEF1;
+    color: red;
+    font-weight: bold;
+    border: none;
+    width: 340px; height: 39px;
+    margin-bottom: 5.125%;
 }

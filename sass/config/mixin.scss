@@ -2,11 +2,51 @@
     font-family:'Raleway', sans-serif;
 }
 
-@mixin mainBlock {
-    border: solid 1px #DCDCDC;
-    height: 290px;
-}
-
 @mixin marginBlock {
     margin-left: 70px;
+}
+
+
+/*Left Block*/
+
+.l1_title {
+    @include marginBlock;
+}
+
+.l1_content {
+    @include marginBlock;
+}
+
+.l2_title {
+    @include marginBlock;
+}
+
+.l2_title {
+    @include marginBlock;
+}
+
+.reason_block_l2 {
+    @include marginBlock;
+}
+
+/*Right Block*/
+
+.title_r1 {
+    @include marginBlock;
+}
+
+.content_r1 {
+    @include marginBlock;
+}
+
+.title_r2 {
+    @include marginBlock;
+}
+
+.content_r2 {
+    @include marginBlock;
+}
+
+.subs-content {
+    @include fontRaleway;
 }
