@@ -121,6 +121,34 @@
   text-align: center;
   text-decoration: none; }
 
+/*Left Block*/
+.l1_title {
+  margin-left: 70px; }
+
+.l1_content {
+  margin-left: 70px; }
+
+.l2_title {
+  margin-left: 70px; }
+
+.l2_title {
+  margin-left: 70px; }
+
+.reason_block_l2 {
+  margin-left: 70px; }
+
+.title_r1 {
+  margin-left: 70px; }
+
+.content_r1 {
+  margin-left: 70px; }
+
+.title_r2 {
+  margin-left: 70px; }
+
+.content_r2 {
+  margin-left: 70px; }
+
 /*Footer*/
 .footer {
   background-color: #EAEEF1;

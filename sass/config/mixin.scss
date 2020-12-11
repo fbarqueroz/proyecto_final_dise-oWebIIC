@@ -6,3 +6,7 @@
     border: solid 1px #DCDCDC;
     height: 290px;
 }
+
+@mixin marginBlock {
+    margin-left: 70px;
+}

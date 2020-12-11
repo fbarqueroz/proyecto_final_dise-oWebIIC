@@ -91,3 +91,41 @@
     text-align: center;
     text-decoration: none;
 }
+
+/*Left Block*/
+
+.l1_title {
+    @include marginBlock;
+}
+
+.l1_content {
+    @include marginBlock;
+}
+
+.l2_title {
+    @include marginBlock;
+}
+
+.l2_title {
+    @include marginBlock;
+}
+
+.reason_block_l2 {
+    @include marginBlock;
+}
+
+.title_r1 {
+    @include marginBlock;
+}
+
+.content_r1 {
+    @include marginBlock;
+}
+
+.title_r2 {
+    @include marginBlock;
+}
+
+.content_r2 {
+    @include marginBlock;
+}
