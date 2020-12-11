@@ -41,7 +41,7 @@
 .content_r2 {
   margin-left: 70px; }
 
-.subs-content {
+.subs-content h4 {
   font-family: 'Raleway', sans-serif; }
 
 /*Partials*/
@@ -152,7 +152,58 @@
   text-align: center;
   text-decoration: none; }
 
+/*Buy Poster Prints*/
+suit_img {
+  background-image: url(../img/suit.png); }
+
 /*Subscribe*/
+.box {
+  float: left;
+  width: 25%;
+  margin: 0; }
+  .box p {
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 3.438%;
+    padding-right: 40.38%;
+    line-height: 255%; }
+
+.box_ul {
+  list-style: none;
+  color: #000000;
+  font-size: 1em;
+  margin-bottom: 3.438%;
+  padding-right: 40.38%;
+  line-height: 255%; }
+  .box_ul ul {
+    margin-top: 0; }
+  .box_ul li {
+    font-size: 1em;
+    padding-bottom: 7.188%;
+    color: #000000;
+    font-weight: bold; }
+
+.subscribe_content a {
+  color: #000000; }
+
+.subscribe_content h4 {
+  padding-top: 8.64%;
+  padding-bottom: 4%; }
+
+.subscribe_content form {
+  padding-right: 20.38%;
+  margin-bottom: 2.063%; }
+
+.submit_text {
+  background-color: #EAEEF1;
+  color: #A9A9A9;
+  font-weight: bold;
+  border: none;
+  width: 340px;
+  height: 39px;
+  margin-bottom: 5.125%; }
+
 /*Footer*/
 .footer {
   background-color: #EAEEF1;
