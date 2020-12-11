@@ -99,7 +99,8 @@ suit_img {
   font-size: 1em;
   margin-bottom: 3.438%;
   padding-right: 40.38%;
-  line-height: 255%; }
+  line-height: 255%;
+  text-decoration: none; }
   .box_ul ul {
     margin-top: 0; }
   .box_ul li {
@@ -108,16 +109,17 @@ suit_img {
     color: #000000;
     font-weight: bold; }
 
-.subscribe_content a {
-  color: #000000; }
-
-.subscribe_content h4 {
-  padding-top: 8.64%;
-  padding-bottom: 4%; }
-
-.subscribe_content form {
-  padding-right: 20.38%;
-  margin-bottom: 2.063%; }
+.subscribe_content {
+  list-style: none; }
+  .subscribe_content a {
+    color: #000000; }
+  .subscribe_content h4 {
+    padding-top: 8.64%;
+    padding-bottom: 4%;
+    font-size: 1.3em; }
+  .subscribe_content form {
+    padding-right: 20.38%;
+    margin-bottom: 2.063%; }
 
 .submit_text {
   background-color: #EAEEF1;
@@ -126,4 +128,14 @@ suit_img {
   border: none;
   width: 340px;
   height: 39px;
-  margin-bottom: 5.125%; }
+  margin-bottom: 5.125%;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: lighter; }
+
+.submit_button {
+  width: 130px;
+  height: 40px;
+  background: none;
+  border: solid 1px #000000;
+  border-radius: 4px; }
