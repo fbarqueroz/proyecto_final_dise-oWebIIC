@@ -2,8 +2,10 @@
 
 .footer{
     background-color: #EAEEF1;
-    padding-top: 2.375%; padding-bottom: 2.375%;
-    padding-right: 5%; padding-left: 5%;
+    padding-top: 2.375%; 
+    padding-bottom: 2.375%;
+    padding-right: 5%; 
+    padding-left: 5%;
 
     p{
         @include fontRaleway;
@@ -18,7 +20,8 @@
 .footer-list{
     float: right;
     width:50%;
-    margin-top: 0; margin-bottom: 0;
+    margin-top: 0; 
+    margin-bottom: 0;
     padding-left: 0;
 
     li{
