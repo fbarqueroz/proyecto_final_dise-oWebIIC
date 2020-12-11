@@ -1,7 +1,93 @@
 /*Main*/
 
+.main_content {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 .main_title {
     text-align: center;
     font-size: 60px;
     font-weight: lighter;
+}
+
+.main_p1 {
+    font-weight: bold;
+}
+
+.main_hr {
+    margin: 0% 47.313% 3.75% 47.438%;
+    border: solid #000000 2px;
+}
+
+/*Pink Block*/
+
+.pink_block {
+    background-color: #FFDDD5;
+}
+
+.pink_block_content {
+    font-size: 36px;
+    color: #000000;
+    text-align: left;
+    float: left;
+    padding-top: 12.5%;
+    padding-left: 6.875%;
+}
+
+.pink_p {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.pink_block_img img{
+    display: block;
+    float: right;
+    width: 50%;
+    height: 37.81%;
+}
+
+.pink_author {
+    padding-top: 4.06%;
+}
+
+/*Reason to be happy*/
+
+.reasons_block_title {
+    font-size: 3.75em;
+    margin-left: 6.25%;
+}
+
+.reasons_block_left {
+    float: left;
+    width: 43.75%;
+    padding-left: 6.25%;
+}
+
+.reason_block_right {
+    float: right;
+    width: 43.75%;
+    padding-right: 6.25%;
+}
+
+.reasons_block_l1 {
+    @include mainBlock;
+}
+
+.reasons_block_l2 {
+    @include mainBlock;
+}
+
+.reason_block_r1 {
+    @include mainBlock;
+}
+
+.reason_block_r2 {
+    @include mainBlock;
+}
+
+.reason_button a {
+    text-align: center;
+    text-decoration: none;
 }
